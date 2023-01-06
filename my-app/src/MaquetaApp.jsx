@@ -1,10 +1,9 @@
 import { appImages } from './helpers/appImages';
 import './App.css';
 
-
 export function MaquetaApp() {
     return (
-        <div>
+      <div>
         <body class="theme-dark" data-theme-color="#3d3935">
           <main className="main">
           <section className="section initial"> 
@@ -13,11 +12,13 @@ export function MaquetaApp() {
             <p className="subtitle">Calcula de forma rápida el costo para crear tu app, contestando estas sencillas preguntas.</p>
             <button className="button text-uppercase js--start">Empezar</button>
           </section>
+
+
           <section className="section question" data-question-id={1} data-pph="true" style={{display: 'none'}}>
             <h2 className="question-title">¿Qué nivel de calidad estás buscando?</h2>
             <div className="answer-group row-of-3">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={60}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-1-1.png" alt="Calidad óptima" /> <span className="answer-text">Calidad óptima</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={60}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-1-1.png")} alt="Calidad óptima" /> <span className="answer-text">Calidad óptima</span> </div>
               </div>
               <div className="col">
                 <div className="answer js--answer" data-answer-id={2} data-answer-weight={40}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-1-2.png" alt="Buena relación calidad/precio" /> <span className="answer-text">Buena relación calidad/precio</span> </div>

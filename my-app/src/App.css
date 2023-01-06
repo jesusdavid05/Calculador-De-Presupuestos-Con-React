@@ -773,8 +773,7 @@ body{
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
-    min-height: 100%;
+    min-height: 90vh;
     text-align: center;
   }
   @media screen and (min-width: 992px) {
@@ -4148,3 +4147,42 @@ body{
     clip: auto;
   }
   
+
+.goog-te-gadget {
+    font-family: arial;
+    font-size: 11px;
+    color: #3d3935;
+    white-space: nowrap;
+    background-color: #3d3935;
+}
+
+
+.goog-te-gadget-simple {
+  background-color: #3d3935;
+  border-left: 1px solid#a6a6a6;
+  border-top: 1px solid#a6a6a6;
+  border-bottom: 1px solid#a6a6a6;
+  border-right: 1px solid#a6a6a6;
+  font-size: 10pt;
+  display: inline-block;
+  padding-bottom: 2px;
+  cursor: pointer;
+  zoom: 1;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span {
+  text-decoration: none;
+  color: rgb(255, 248, 248);
+}
+
+.goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * {
+  font-family: arial;
+  font-size: 10pt;
+  background-color: #3d3935;
+}
+
+element.style {
+  position: relative;
+  min-height: 100%;
+  top: 20px;
+}
