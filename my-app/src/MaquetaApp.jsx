@@ -18,145 +18,146 @@ export function MaquetaApp() {
             <h2 className="question-title">¿Qué nivel de calidad estás buscando?</h2>
             <div className="answer-group row-of-3">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={60}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-1-1.png")} alt="Calidad óptima" /> <span className="answer-text">Calidad óptima</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={60}> <img className="answer-image js--answer-image" 
+                src={appImages("./intro.png")} data-src={appImages("./answer-1-1.png")} alt="Calidad óptima" /> <span className="answer-text">Calidad óptima</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={2} data-answer-weight={40}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-1-2.png" alt="Buena relación calidad/precio" /> <span className="answer-text">Buena relación calidad/precio</span> </div>
+                <div className="answer js--answer" data-answer-id={2} data-answer-weight={40}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-1-2.png")} alt="Buena relación calidad/precio" /> <span className="answer-text">Buena relación calidad/precio</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={3} data-answer-weight={20}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-1-3.png" alt="No me importa tanto la calidad" /> <span className="answer-text">No me importa tanto la calidad</span> </div>
+                <div className="answer js--answer" data-answer-id={3} data-answer-weight={20}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-1-3.png")} alt="No me importa tanto la calidad" /> <span className="answer-text">No me importa tanto la calidad</span> </div>
               </div>
             </div> <span className="text-bold question-progress">1/10</span> <span className="text-bold price-progress js--price-progress">-</span> </section>
           <section className="section question" data-question-id={2} data-pph="false" style={{display: 'none'}}>
             <h2 className="question-title">¿Qué tipo de App necesitas?</h2>
             <div className="answer-group row-of-4">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={60}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-2-1.png" alt="Aplicación Android" /> <span className="answer-text">Aplicación Android</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={60}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-2-1.png")} alt="Aplicación Android" /> <span className="answer-text">Aplicación Android</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={2} data-answer-weight={60}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-2-2.png" alt="Aplicación iOS" /> <span className="answer-text">Aplicación iOS</span> </div>
+                <div className="answer js--answer" data-answer-id={2} data-answer-weight={60}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-2-2.png")} alt="Aplicación iOS" /> <span className="answer-text">Aplicación iOS</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={3} data-answer-weight={60}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-2-3.png" alt="Aplicación Windows Phone" /> <span className="answer-text">Aplicación Windows Phone</span> </div>
+                <div className="answer js--answer" data-answer-id={3} data-answer-weight={60}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-2-3.png")} alt="Aplicación Windows Phone" /> <span className="answer-text">Aplicación Windows Phone</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={4} data-answer-weight={100}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-2-4.png" alt="Aplicación Android + iOS" /> <span className="answer-text">Aplicación Android + iOS</span> </div>
+                <div className="answer js--answer" data-answer-id={4} data-answer-weight={100}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-2-4.png")} alt="Aplicación Android + iOS" /> <span className="answer-text">Aplicación Android + iOS</span> </div>
               </div>
             </div> <span className="text-bold question-progress">2/10</span> <span className="text-bold price-progress js--price-progress">-</span> <span className="link question-previous js--previous">← Anterior</span> </section>
           <section className="section question" data-question-id={3} data-pph="false" style={{display: 'none'}}>
             <h2 className="question-title">¿Qué diseño quieres que tenga tu App?</h2>
             <div className="answer-group row-of-4">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={40}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-3-1.png" alt="Interfaz sencilla" /> <span className="answer-text">Interfaz sencilla</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={40}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-3-1.png")} alt="Interfaz sencilla" /> <span className="answer-text">Interfaz sencilla</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={2} data-answer-weight={120}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-3-2.png" alt="Interfaz personalizada" /> <span className="answer-text">Interfaz personalizada</span> </div>
+                <div className="answer js--answer" data-answer-id={2} data-answer-weight={120}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-3-2.png")} alt="Interfaz personalizada" /> <span className="answer-text">Interfaz personalizada</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={3} data-answer-weight={80}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-3-3.png" alt="Interfaz replicada de la web" /> <span className="answer-text">Interfaz replicada de la web</span> </div>
+                <div className="answer js--answer" data-answer-id={3} data-answer-weight={80}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-3-3.png")} alt="Interfaz replicada de la web" /> <span className="answer-text">Interfaz replicada de la web</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={4} data-answer-weight={0}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-3-4.png" alt="No necesito diseño" /> <span className="answer-text">No necesito diseño</span> </div>
+                <div className="answer js--answer" data-answer-id={4} data-answer-weight={0}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-3-4.png")} alt="No necesito diseño" /> <span className="answer-text">No necesito diseño</span> </div>
               </div>
             </div> <span className="text-bold question-progress">3/10</span> <span className="text-bold price-progress js--price-progress">-</span> <span className="link question-previous js--previous">← Anterior</span> </section>
           <section className="section question" data-question-id={4} data-pph="false" style={{display: 'none'}}>
             <h2 className="question-title">¿Cómo quieres sacar beneficio a tu App?</h2>
             <div className="answer-group row-of-4">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={5}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-4-1.png" alt="Aplicación gratuita con publicidad" /> <span className="answer-text">Aplicación gratuita con publicidad</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={5}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-4-1.png")} alt="Aplicación gratuita con publicidad" /> <span className="answer-text">Aplicación gratuita con publicidad</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={2} data-answer-weight={5}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-4-2.png" alt="Aplicación de pago" /> <span className="answer-text">Aplicación de pago</span> </div>
+                <div className="answer js--answer" data-answer-id={2} data-answer-weight={5}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-4-2.png")} alt="Aplicación de pago" /> <span className="answer-text">Aplicación de pago</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={3} data-answer-weight={40}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-4-3.png" alt="Compras dentro de la app" /> <span className="answer-text">Compras dentro de la app</span> </div>
+                <div className="answer js--answer" data-answer-id={3} data-answer-weight={40}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-4-3.png")} alt="Compras dentro de la app" /> <span className="answer-text">Compras dentro de la app</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={4} data-answer-weight={10}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-4-4.png" alt="Otros / No lo sé todavía" /> <span className="answer-text">Otros / No lo sé todavía</span> </div>
+                <div className="answer js--answer" data-answer-id={4} data-answer-weight={10}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-4-4.png")} alt="Otros / No lo sé todavía" /> <span className="answer-text">Otros / No lo sé todavía</span> </div>
               </div>
             </div> <span className="text-bold question-progress">4/10</span> <span className="text-bold price-progress js--price-progress">-</span> <span className="link question-previous js--previous">← Anterior</span> </section>
           <section className="section question" data-question-id={5} data-pph="false" style={{display: 'none'}}>
             <h2 className="question-title">¿Tu App necesita un sistema de login ?</h2>
             <div className="answer-group row-of-4">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={40}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-5-1.png" alt="Sí, con redes sociales y email" /> <span className="answer-text">Sí, con redes sociales y email</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={40}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-5-1.png")} alt="Sí, con redes sociales y email" /> <span className="answer-text">Sí, con redes sociales y email</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={2} data-answer-weight={25}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-5-2.png" alt="Sí, con email" /> <span className="answer-text">Sí, con email</span> </div>
+                <div className="answer js--answer" data-answer-id={2} data-answer-weight={25}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-5-2.png")} alt="Sí, con email" /> <span className="answer-text">Sí, con email</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={3} data-answer-weight={0}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-5-3.png" alt="No" /> <span className="answer-text">No</span> </div>
+                <div className="answer js--answer" data-answer-id={3} data-answer-weight={0}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-5-3.png")} alt="No" /> <span className="answer-text">No</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={4} data-answer-weight={20}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-5-4.png" alt="No lo sé todavía" /> <span className="answer-text">No lo sé todavía</span> </div>
+                <div className="answer js--answer" data-answer-id={4} data-answer-weight={20}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-5-4.png")} alt="No lo sé todavía" /> <span className="answer-text">No lo sé todavía</span> </div>
               </div>
             </div> <span className="text-bold question-progress">5/10</span> <span className="text-bold price-progress js--price-progress">-</span> <span className="link question-previous js--previous">← Anterior</span> </section>
           <section className="section question" data-question-id={6} data-pph="false" style={{display: 'none'}}>
             <h2 className="question-title">¿Tu App tiene que estar integrada con un sitio web?</h2>
             <div className="answer-group row-of-3">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={40}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-6-1.png" alt="Sí" /> <span className="answer-text">Sí</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={40}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-6-1.png")} alt="Sí" /> <span className="answer-text">Sí</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={2} data-answer-weight={0}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-6-2.png" alt="No" /> <span className="answer-text">No</span> </div>
+                <div className="answer js--answer" data-answer-id={2} data-answer-weight={0}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-6-2.png")} alt="No" /> <span className="answer-text">No</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={3} data-answer-weight={20}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-6-3.png" alt="No lo sé" /> <span className="answer-text">No lo sé</span> </div>
+                <div className="answer js--answer" data-answer-id={3} data-answer-weight={20}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-6-3.png")} alt="No lo sé" /> <span className="answer-text">No lo sé</span> </div>
               </div>
             </div> <span className="text-bold question-progress">6/10</span> <span className="text-bold price-progress js--price-progress">-</span> <span className="link question-previous js--previous">← Anterior</span> </section>
           <section className="section question" data-question-id={7} data-pph="false" style={{display: 'none'}}>
             <h2 className="question-title">¿Los usuarios tienen sus propios perfiles?</h2>
             <div className="answer-group row-of-3">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={40}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-7-1.png" alt="Sí" /> <span className="answer-text">Sí</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={40}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-7-1.png")} alt="Sí" /> <span className="answer-text">Sí</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={2} data-answer-weight={0}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-7-2.png" alt="No" /> <span className="answer-text">No</span> </div>
+                <div className="answer js--answer" data-answer-id={2} data-answer-weight={0}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-7-2.png")} alt="No" /> <span className="answer-text">No</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={3} data-answer-weight={20}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-7-3.png" alt="No lo sé" /> <span className="answer-text">No lo sé</span> </div>
+                <div className="answer js--answer" data-answer-id={3} data-answer-weight={20}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-7-3.png")} alt="No lo sé" /> <span className="answer-text">No lo sé</span> </div>
               </div>
             </div> <span className="text-bold question-progress">7/10</span> <span className="text-bold price-progress js--price-progress">-</span> <span className="link question-previous js--previous">← Anterior</span> </section>
           <section className="section question" data-question-id={8} data-pph="false" style={{display: 'none'}}>
             <h2 className="question-title">¿Tu app necesita un panel de administración?</h2>
             <div className="answer-group row-of-3">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={40}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-8-1.png" alt="Sí" /> <span className="answer-text">Sí</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={40}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-8-1.png")} alt="Sí" /> <span className="answer-text">Sí</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={2} data-answer-weight={0}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-8-2.png" alt="No" /> <span className="answer-text">No</span> </div>
+                <div className="answer js--answer" data-answer-id={2} data-answer-weight={0}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-8-2.png")} alt="No" /> <span className="answer-text">No</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={3} data-answer-weight={20}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-8-3.png" alt="No lo sé" /> <span className="answer-text">No lo sé</span> </div>
+                <div className="answer js--answer" data-answer-id={3} data-answer-weight={20}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-8-3.png")} alt="No lo sé" /> <span className="answer-text">No lo sé</span> </div>
               </div>
             </div> <span className="text-bold question-progress">8/10</span> <span className="text-bold price-progress js--price-progress">-</span> <span className="link question-previous js--previous">← Anterior</span> </section>
           <section className="section question" data-question-id={9} data-pph="false" style={{display: 'none'}}>
             <h2 className="question-title">¿Qué idiomas usará tu aplicación?</h2>
             <div className="answer-group row-of-3">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={0}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-9-1.png" alt="Un único idioma" /> <span className="answer-text">Un único idioma</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={0}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-9-1.png")} alt="Un único idioma" /> <span className="answer-text">Un único idioma</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={2} data-answer-weight={20}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-9-2.png" alt="Bilingüe" /> <span className="answer-text">Bilingüe</span> </div>
+                <div className="answer js--answer" data-answer-id={2} data-answer-weight={20}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-9-2.png")} alt="Bilingüe" /> <span className="answer-text">Bilingüe</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={3} data-answer-weight={40}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-9-3.png" alt="Multilingüe" /> <span className="answer-text">Multilingüe</span> </div>
+                <div className="answer js--answer" data-answer-id={3} data-answer-weight={40}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-9-3.png")} alt="Multilingüe" /> <span className="answer-text">Multilingüe</span> </div>
               </div>
             </div> <span className="text-bold question-progress">9/10</span> <span className="text-bold price-progress js--price-progress">-</span> <span className="link question-previous js--previous">← Anterior</span> </section>
           <section className="section question" data-question-id={10} data-pph="false" style={{display: 'none'}}>
             <h2 className="question-title">¿En qué estado se encuentra tu proyecto?</h2>
             <div className="answer-group row-of-4">
               <div className="col">
-                <div className="answer js--answer" data-answer-id={1} data-answer-weight={0}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-10-1.png" alt="Sólo es una idea" /> <span className="answer-text">Sólo es una idea</span> </div>
+                <div className="answer js--answer" data-answer-id={1} data-answer-weight={0}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-10-1.png")} alt="Sólo es una idea" /> <span className="answer-text">Sólo es una idea</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={2} data-answer-weight={0}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-10-2.png" alt="Boceto ya preparado" /> <span className="answer-text">Boceto ya preparado</span> </div>
+                <div className="answer js--answer" data-answer-id={2} data-answer-weight={0}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-10-2.png")} alt="Boceto ya preparado" /> <span className="answer-text">Boceto ya preparado</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={3} data-answer-weight={0}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-10-3.png" alt="App en desarrollo" /> <span className="answer-text">App en desarrollo</span> </div>
+                <div className="answer js--answer" data-answer-id={3} data-answer-weight={0}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-10-3.png")} alt="App en desarrollo" /> <span className="answer-text">App en desarrollo</span> </div>
               </div>
               <div className="col">
-                <div className="answer js--answer" data-answer-id={4} data-answer-weight={0}> <img className="answer-image js--answer-image" src="img/app/intro.png" data-src="img/app/answer-10-4.png" alt="App ya desarrollada" /> <span className="answer-text">App ya desarrollada</span> </div>
+                <div className="answer js--answer" data-answer-id={4} data-answer-weight={0}> <img className="answer-image js--answer-image" src={appImages("./intro.png")} data-src={appImages("./answer-10-4.png")} alt="App ya desarrollada" /> <span className="answer-text">App ya desarrollada</span> </div>
               </div>
             </div> <span className="text-bold question-progress">10/10</span> <span className="text-bold price-progress js--price-progress">-</span> <span className="link question-previous js--previous">← Anterior</span> </section>
           <section className="section results" style={{display: 'none'}}>
@@ -173,61 +174,61 @@ export function MaquetaApp() {
             <div className="results-container">
               <p><span className="link js--toggle-results">Editar respuestas</span></p>
               <ul className="results-summary js--results-summary">
-                <li className="result js--result" data-question-id={1}> <img className="result-image js--result-image" src="img/app/answer-1-1.png" alt="" />
+                <li className="result js--result" data-question-id={1}> <img className="result-image js--result-image" src={appImages("./answer-1-1.png")} alt="" />
                   <div className="result-body"> <span className="result-question">¿Qué nivel de calidad estás buscando?</span> <span>
                       <b className="result-answer js--result-answer" />&nbsp;
                       <span className="result-change js--change">Cambiar</span> </span>
                   </div>
                 </li>
-                <li className="result js--result" data-question-id={2}> <img className="result-image js--result-image" src="img/app/answer-1-1.png" alt="" />
+                <li className="result js--result" data-question-id={2}> <img className="result-image js--result-image" src={appImages("./answer-1-1.png")} alt="" />
                   <div className="result-body"> <span className="result-question">¿Qué tipo de App necesitas?</span> <span>
                       <b className="result-answer js--result-answer" />&nbsp;
                       <span className="result-change js--change">Cambiar</span> </span>
                   </div>
                 </li>
-                <li className="result js--result" data-question-id={3}> <img className="result-image js--result-image" src="img/app/answer-1-1.png" alt="" />
+                <li className="result js--result" data-question-id={3}> <img className="result-image js--result-image" src={appImages("./answer-1-1.png")} alt="" />
                   <div className="result-body"> <span className="result-question">¿Qué diseño quieres que tenga tu App?</span> <span>
                       <b className="result-answer js--result-answer" />&nbsp;
                       <span className="result-change js--change">Cambiar</span> </span>
                   </div>
                 </li>
-                <li className="result js--result" data-question-id={4}> <img className="result-image js--result-image" src="img/app/answer-1-1.png" alt="" />
+                <li className="result js--result" data-question-id={4}> <img className="result-image js--result-image" src={appImages("./answer-1-1.png")} alt="" />
                   <div className="result-body"> <span className="result-question">¿Cómo quieres sacar beneficio a tu App?</span> <span>
                       <b className="result-answer js--result-answer" />&nbsp;
                       <span className="result-change js--change">Cambiar</span> </span>
                   </div>
                 </li>
-                <li className="result js--result" data-question-id={5}> <img className="result-image js--result-image" src="img/app/answer-1-1.png" alt="" />
+                <li className="result js--result" data-question-id={5}> <img className="result-image js--result-image" src={appImages("./answer-1-1.png")} alt="" />
                   <div className="result-body"> <span className="result-question">¿Tu App necesita un sistema de login ?</span> <span>
                       <b className="result-answer js--result-answer" />&nbsp;
                       <span className="result-change js--change">Cambiar</span> </span>
                   </div>
                 </li>
-                <li className="result js--result" data-question-id={6}> <img className="result-image js--result-image" src="img/app/answer-1-1.png" alt="" />
+                <li className="result js--result" data-question-id={6}> <img className="result-image js--result-image" src={appImages("./answer-1-1.png")} alt="" />
                   <div className="result-body"> <span className="result-question">¿Tu App tiene que estar integrada con un sitio web?</span> <span>
                       <b className="result-answer js--result-answer" />&nbsp;
                       <span className="result-change js--change">Cambiar</span> </span>
                   </div>
                 </li>
-                <li className="result js--result" data-question-id={7}> <img className="result-image js--result-image" src="img/app/answer-1-1.png" alt="" />
+                <li className="result js--result" data-question-id={7}> <img className="result-image js--result-image" src={appImages("./answer-1-1.png")} alt="" />
                   <div className="result-body"> <span className="result-question">¿Los usuarios tienen sus propios perfiles?</span> <span>
                       <b className="result-answer js--result-answer" />&nbsp;
                       <span className="result-change js--change">Cambiar</span> </span>
                   </div>
                 </li>
-                <li className="result js--result" data-question-id={8}> <img className="result-image js--result-image" src="img/app/answer-1-1.png" alt="" />
+                <li className="result js--result" data-question-id={8}> <img className="result-image js--result-image" src={appImages("./answer-1-1.png")} alt="" />
                   <div className="result-body"> <span className="result-question">¿Tu app necesita un panel de administración?</span> <span>
                       <b className="result-answer js--result-answer" />&nbsp;
                       <span className="result-change js--change">Cambiar</span> </span>
                   </div>
                 </li>
-                <li className="result js--result" data-question-id={9}> <img className="result-image js--result-image" src="img/app/answer-1-1.png" alt="" />
+                <li className="result js--result" data-question-id={9}> <img className="result-image js--result-image" src={appImages("./answer-1-1.png")} alt="" />
                   <div className="result-body"> <span className="result-question">¿Qué idiomas usará tu aplicación?</span> <span>
                       <b className="result-answer js--result-answer" />&nbsp;
                       <span className="result-change js--change">Cambiar</span> </span>
                   </div>
                 </li>
-                <li className="result js--result" data-question-id={10}> <img className="result-image js--result-image" src="img/app/answer-1-1.png" alt="" />
+                <li className="result js--result" data-question-id={10}> <img className="result-image js--result-image" src={appImages("./answer-1-1.png")} alt="" />
                   <div className="result-body"> <span className="result-question">¿En qué estado se encuentra tu proyecto?</span> <span>
                       <b className="result-answer js--result-answer" />&nbsp;
                       <span className="result-change js--change">Cambiar</span> </span>
